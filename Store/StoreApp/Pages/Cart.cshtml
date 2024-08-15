@@ -1,0 +1,61 @@
+﻿@page "/Cart"
+@model CartModel
+
+<div>
+
+    <div class="text-center display-6">
+        Sepet </div>
+        <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>Bilet</th>
+                <th>Bilet Sayısı</th>
+                <th>Fiyat Bilgisi</th>
+                <th>Ara Toplam</th>
+                <th></th>
+               </tr>
+            </thead>
+            <tbody>
+            @foreach (var line in Model.Cart?.Lines ?? Enumerable.Empty<CartLine>())
+            {
+              <tr>
+
+                    <td>@line.Product.ProductName</td>
+                    <td>@line.Quantity</td>
+                    <td>@line.Product.Price.ToString("c")</td>
+                    <td>@((line.Product.Price*line.Quantity).ToString("c2"))</td>
+                    <td>
+                        <form method="post" asp-page-handler="Remove" >
+                            <input type="hidden" name="id" value="@line.Product.ProductId" />
+                            <input type="hidden" name="returnUrl" value="@Model.ReturnUrl" />
+                             <button type="submit" class="btn btn-sm btn-danger">
+                                <i class="fa-solid fa-trash"></i>
+                                Kaldır
+                             </button>
+                        </form>
+                    </td>
+
+              </tr>
+}
+
+            </tbody>
+            <tfoot>
+                <tr>
+                <td colspan="4" class="text-right"> Toplam: </td>
+                <td class="text-right text-danger">  
+                    @Model.Cart?.ComputeTotalValue().ToString("C2")
+                </td>
+                    
+                </tr>
+            </tfoot>
+
+        </table>
+            <div class="text-center my-3">
+                    <div class="btn-group">
+                        <a class="btn btn-primary" href="@Model?.ReturnUrl">Bilet Köprüsünden Geçmeye Devam Et </a>
+
+                    </div>
+
+            </div>
+
+</div>

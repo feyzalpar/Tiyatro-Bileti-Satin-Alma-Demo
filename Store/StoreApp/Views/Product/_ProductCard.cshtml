@@ -1,0 +1,30 @@
+﻿@model Product
+
+
+<div class="col-sm12 col-md-4 my-3">
+
+<div class="card" style="width: 18rem;">
+    <img src="@Model.ImageUrl" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">@Model.ProductName</h5>
+        <p class="card-text">Oyun Açıklaması</p>
+
+            <div class="btn btn-group">
+             <a asp-action="Get" asp-route-id="@Model.ProductId"  class="btn btn-primary">
+                <i class= "fa-solid fa-arrow-right"></i>
+                Detayları Öğren
+             </a>
+
+            <form id="@Model.ProductId" asp-page="/Cart" method="post">
+                <input type="hidden" asp-for="ProductId"/>
+                <input type="hidden" name="returnUrl" value="@ViewContext.HttpContext.Request.PathAndQuery()" /> 
+                <button type="submit" class="btn btn-outline-primary">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+            </form>
+            </div>
+    </div>
+
+</div>
+
+</div>

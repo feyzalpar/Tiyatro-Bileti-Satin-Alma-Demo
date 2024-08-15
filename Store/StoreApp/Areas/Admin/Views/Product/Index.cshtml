@@ -1,0 +1,67 @@
+﻿@model IEnumerable<Product>
+<div class="text-center">
+
+    <div class="display-6">Ürünler</div>
+
+    <div class="text-center">
+
+    
+
+    <div class="d-flex justify-content-end my-3">
+        <a class="btn btn-outline-success" asp-action="Create"> 
+            <i class="fa-solid fa-plus"></i>
+            Ürün Ekle
+            </a>
+        </div>
+
+    </div>
+
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Image Url</th>
+                <th>Ürün</th>
+                <th>Ücret</th>
+                <th>operasyons</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Product prd in Model)
+            {
+                <tr>
+                    <td>@prd.ProductId</td>
+                    <td>
+                        <img class="border border-dark rounded" src="@prd?.ImageUrl" alt="@prd?.ProductName" width="50" />
+                    </td>
+                    <td>@prd.ProductName</td>
+                    <td>@prd.Price.ToString("c")</td>
+                    <td>
+                      <div class="btn-group">
+                          <a class="btn btn-warning" asp-action="Update" asp-route-id="@prd.ProductId">
+                              <i class="fa fa-edit"> </i>
+                              Düzenle</a>
+                      </div>
+
+                            <div class="btn-group">
+                                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@prd.ProductId">
+                                    <i class="fa fa-trash"> </i>
+                                    Sil
+                                </a>
+
+
+                            <a class="btn btn-info" target="_blank" asp-area=" " asp-action="Get" asp-route-id="@prd.ProductId">
+                                <i class="fa fa-search"> </i>
+                                Önizleme
+                            </a>
+
+                            
+                      </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
+

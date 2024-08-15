@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilet Satın Alma</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://wallpaper.dog/large/20552168.jpg'); /* Arka plan fotoğrafı URL'sini buraya ekleyin */
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            max-width: 600px;
+            margin: 50px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bilet Satın Al</h1>
+        <form>
+            <label for="event">Etkinlik Seçin:</label>
+            <select id="event" name="event">
+                <option value="concert">Konser</option>
+                <option value="theater">Tiyatro</option>
+                <option value="sports">Spor</option>
+            </select>
+            <label for="name">Adınız:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">E-posta:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="quantity">Bilet Adedi:</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="10" required>
+            <button type="submit">Satın Al</button>
+        </form>
+    </div>
+</body>
+</html>

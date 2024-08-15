@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MVC\\Store\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE617984-FD0F-457B-9E57-D4AEDFDE8C4D}|StoreApp\\StoreApp.csproj|c:\\mvc\\store\\storeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE617984-FD0F-457B-9E57-D4AEDFDE8C4D}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE617984-FD0F-457B-9E57-D4AEDFDE8C4D}|StoreApp\\StoreApp.csproj|c:\\mvc\\store\\storeapp\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE617984-FD0F-457B-9E57-D4AEDFDE8C4D}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE617984-FD0F-457B-9E57-D4AEDFDE8C4D}|StoreApp\\StoreApp.csproj|c:\\mvc\\store\\storeapp\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE617984-FD0F-457B-9E57-D4AEDFDE8C4D}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE617984-FD0F-457B-9E57-D4AEDFDE8C4D}|StoreApp\\StoreApp.csproj|c:\\mvc\\store\\storeapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE617984-FD0F-457B-9E57-D4AEDFDE8C4D}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE617984-FD0F-457B-9E57-D4AEDFDE8C4D}|StoreApp\\StoreApp.csproj|c:\\mvc\\store\\storeapp\\views\\product\\_productcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE617984-FD0F-457B-9E57-D4AEDFDE8C4D}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\views\\product\\_productcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE617984-FD0F-457B-9E57-D4AEDFDE8C4D}|StoreApp\\StoreApp.csproj|c:\\mvc\\store\\storeapp\\pages\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE617984-FD0F-457B-9E57-D4AEDFDE8C4D}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\pages\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{679EFA03-60A3-40E6-9BC2-49AC66A9ED55}|Repositories\\Repositories.csproj|c:\\mvc\\store\\repositories\\context\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{679EFA03-60A3-40E6-9BC2-49AC66A9ED55}|Repositories\\Repositories.csproj|solutionrelative:repositories\\context\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0D4B32-8D5E-4304-A50F-7ECA09108BF9}|Entities\\Entities.csproj|c:\\mvc\\store\\entities\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0D4B32-8D5E-4304-A50F-7ECA09108BF9}|Entities\\Entities.csproj|solutionrelative:entities\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E62239-21EF-4050-BAFC-AD4889740B63}|Services\\Services.csproj|c:\\mvc\\store\\services\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5E62239-21EF-4050-BAFC-AD4889740B63}|Services\\Services.csproj|solutionrelative:services\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{679EFA03-60A3-40E6-9BC2-49AC66A9ED55}|Repositories\\Repositories.csproj|c:\\mvc\\store\\repositories\\repos\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{679EFA03-60A3-40E6-9BC2-49AC66A9ED55}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repos\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{679EFA03-60A3-40E6-9BC2-49AC66A9ED55}|Repositories\\Repositories.csproj|c:\\mvc\\store\\repositories\\contracts\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{679EFA03-60A3-40E6-9BC2-49AC66A9ED55}|Repositories\\Repositories.csproj|solutionrelative:repositories\\contracts\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 172,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\MVC\\Store\\StoreApp\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "StoreApp\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\MVC\\Store\\StoreApp\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "StoreApp\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAgwAEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T11:18:50.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\MVC\\Store\\StoreApp\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "StoreApp\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\MVC\\Store\\StoreApp\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "StoreApp\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T11:18:44.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\MVC\\Store\\StoreApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "StoreApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\MVC\\Store\\StoreApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "StoreApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAgwEgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T10:47:00.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ProductCard.cshtml",
+              "DocumentMoniker": "C:\\MVC\\Store\\StoreApp\\Views\\Product\\_ProductCard.cshtml",
+              "RelativeDocumentMoniker": "StoreApp\\Views\\Product\\_ProductCard.cshtml",
+              "ToolTip": "C:\\MVC\\Store\\StoreApp\\Views\\Product\\_ProductCard.cshtml",
+              "RelativeToolTip": "StoreApp\\Views\\Product\\_ProductCard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T10:45:01.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\MVC\\Store\\StoreApp\\Pages\\Contact.cshtml",
+              "RelativeDocumentMoniker": "StoreApp\\Pages\\Contact.cshtml",
+              "ToolTip": "C:\\MVC\\Store\\StoreApp\\Pages\\Contact.cshtml",
+              "RelativeToolTip": "StoreApp\\Pages\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T10:42:55.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\MVC\\Store\\Entities\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Entities\\Models\\Order.cs",
+              "ToolTip": "C:\\MVC\\Store\\Entities\\Models\\Order.cs",
+              "RelativeToolTip": "Entities\\Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T07:37:05.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\MVC\\Store\\Repositories\\Repos\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Repos\\OrderRepository.cs",
+              "ToolTip": "C:\\MVC\\Store\\Repositories\\Repos\\OrderRepository.cs",
+              "RelativeToolTip": "Repositories\\Repos\\OrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T07:34:32.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RepositoryContext.cs",
+              "DocumentMoniker": "C:\\MVC\\Store\\Repositories\\Context\\RepositoryContext.cs",
+              "RelativeDocumentMoniker": "Repositories\\Context\\RepositoryContext.cs",
+              "ToolTip": "C:\\MVC\\Store\\Repositories\\Context\\RepositoryContext.cs",
+              "RelativeToolTip": "Repositories\\Context\\RepositoryContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T07:27:29.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MVC\\Store\\StoreApp\\Program.cs",
+              "RelativeDocumentMoniker": "StoreApp\\Program.cs",
+              "ToolTip": "C:\\MVC\\Store\\StoreApp\\Program.cs",
+              "RelativeToolTip": "StoreApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T06:26:49.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\MVC\\Store\\Repositories\\Contracts\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Contracts\\IProductRepository.cs",
+              "ToolTip": "C:\\MVC\\Store\\Repositories\\Contracts\\IProductRepository.cs",
+              "RelativeToolTip": "Repositories\\Contracts\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T07:26:56.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderManager.cs",
+              "DocumentMoniker": "C:\\MVC\\Store\\Services\\OrderManager.cs",
+              "RelativeDocumentMoniker": "Services\\OrderManager.cs",
+              "ToolTip": "C:\\MVC\\Store\\Services\\OrderManager.cs",
+              "RelativeToolTip": "Services\\OrderManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T07:25:49.662Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
